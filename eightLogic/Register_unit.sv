@@ -1,7 +1,8 @@
+// This code comnbines two 8-bit register into one
 module register_unit (input  logic Clk, Reset, A_In, B_In, Ld_A, Ld_B, 
                             Shift_En,
-                      input  logic [7:0]  D,
-                      output logic A_out, B_out,
+                      input  logic [7:0]  D, 
+                      output logic A_out, B_out, 
                       output logic [7:0]  A,
                       output logic [7:0]  B);
 

@@ -1,0 +1,260 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/cwu72/Desktop/Lab-4/eightLogic/simulation/modelsim
+vcompute
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+IJK0Kg;^?Ch]BXRmk0AgLJ1
+VF]:?C:MPUkP4PV9`m`O5L3
+S1
+Z2 d/home/cwu72/Desktop/Lab-4/eightLogic/simulation/modelsim
+w1517892807
+8/home/cwu72/Desktop/Lab-4/eightLogic/compute.sv
+F/home/cwu72/Desktop/Lab-4/eightLogic/compute.sv
+L0 1
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-sv -work work -O0
+Z5 !s92 -sv -work work +incdir+/home/cwu72/Desktop/Lab-4/eightLogic -O0
+!i10b 1
+!s100 D[hoZJ4[o071YA6zB^n==0
+!s105 compute_sv_unit
+!s85 0
+!s108 1517896292.960246
+!s107 /home/cwu72/Desktop/Lab-4/eightLogic/compute.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/cwu72/Desktop/Lab-4/eightLogic|/home/cwu72/Desktop/Lab-4/eightLogic/compute.sv|
+!s101 -O0
+vcontrol
+R1
+I0QR:3YbO9B;Ql^399F66=0
+Vf>I7kP`Q[nPGYZ1F6UJdQ2
+S1
+R2
+w1517892496
+8/home/cwu72/Desktop/Lab-4/eightLogic/Control.sv
+F/home/cwu72/Desktop/Lab-4/eightLogic/Control.sv
+L0 4
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 dM]OH?o0cD@LS3N^`;7<V2
+!s105 Control_sv_unit
+!s85 0
+!s108 1517896292.852769
+!s107 /home/cwu72/Desktop/Lab-4/eightLogic/Control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/cwu72/Desktop/Lab-4/eightLogic|/home/cwu72/Desktop/Lab-4/eightLogic/Control.sv|
+!s101 -O0
+veightLogic
+R1
+IZWHhnj3QE8KV<jBI;UM_;0
+V<=giZKo`NkUe^ML;^X<EB2
+S1
+R2
+w1517895028
+8/home/cwu72/Desktop/Lab-4/eightLogic/eightLogic.sv
+F/home/cwu72/Desktop/Lab-4/eightLogic/eightLogic.sv
+L0 8
+R3
+r1
+31
+R4
+R5
+neight@logic
+!i10b 1
+!s100 zCj?M0PU@RG1W2RoB9z9W1
+!s105 eightLogic_sv_unit
+!s85 0
+!s108 1517896293.175987
+!s107 /home/cwu72/Desktop/Lab-4/eightLogic/eightLogic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/cwu72/Desktop/Lab-4/eightLogic|/home/cwu72/Desktop/Lab-4/eightLogic/eightLogic.sv|
+!s101 -O0
+vHexDriver
+R1
+I8PGckPOVl1meUae7joZe>2
+V2G6=_O>lD=3U`GOXc0nkW3
+S1
+R2
+w1517892465
+8/home/cwu72/Desktop/Lab-4/eightLogic/HexDriver.sv
+F/home/cwu72/Desktop/Lab-4/eightLogic/HexDriver.sv
+L0 2
+R3
+r1
+31
+R4
+R5
+n@hex@driver
+!i10b 1
+!s100 Ne;Mlmb4mR3iX^Z_ePJS90
+!s105 HexDriver_sv_unit
+!s85 0
+!s108 1517896292.744880
+!s107 /home/cwu72/Desktop/Lab-4/eightLogic/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/cwu72/Desktop/Lab-4/eightLogic|/home/cwu72/Desktop/Lab-4/eightLogic/HexDriver.sv|
+!s101 -O0
+vreg_8
+R1
+IjigILz0Q24:LCkJRX;]B83
+VLUYDLUY?eZ]T5>V:QG?]K3
+S1
+R2
+w1517891905
+8/home/cwu72/Desktop/Lab-4/eightLogic/Reg_8.sv
+F/home/cwu72/Desktop/Lab-4/eightLogic/Reg_8.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 bXZ9O09<TJ85`73ZS:J@c1
+!s105 Reg_8_sv_unit
+!s85 0
+!s108 1517896292.629278
+!s107 /home/cwu72/Desktop/Lab-4/eightLogic/Reg_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/cwu72/Desktop/Lab-4/eightLogic|/home/cwu72/Desktop/Lab-4/eightLogic/Reg_8.sv|
+!s101 -O0
+vregister_unit
+R1
+IBDQ5TKfRMQDh2koKT?7fk1
+VXNIABo<WzcN0KQUUSQQA@1
+S1
+R2
+w1517891988
+8/home/cwu72/Desktop/Lab-4/eightLogic/Register_unit.sv
+F/home/cwu72/Desktop/Lab-4/eightLogic/Register_unit.sv
+L0 2
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 X@;@cgfNk9QLE<@l;FL5;1
+!s105 Register_unit_sv_unit
+!s85 0
+!s108 1517896293.062504
+!s107 /home/cwu72/Desktop/Lab-4/eightLogic/Register_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/cwu72/Desktop/Lab-4/eightLogic|/home/cwu72/Desktop/Lab-4/eightLogic/Register_unit.sv|
+!s101 -O0
+vrouter
+R1
+IZ?o<DnLZ5F9WBVd8b;2`c0
+VmkijiYZKfQjM=1jzcIjDI0
+S1
+R2
+w1517892067
+8/home/cwu72/Desktop/Lab-4/eightLogic/Router.sv
+F/home/cwu72/Desktop/Lab-4/eightLogic/Router.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 VVf5FP5dzU5X3E2l1SWm52
+!s105 Router_sv_unit
+!s85 0
+!s108 1517896292.486319
+!s107 /home/cwu72/Desktop/Lab-4/eightLogic/Router.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/cwu72/Desktop/Lab-4/eightLogic|/home/cwu72/Desktop/Lab-4/eightLogic/Router.sv|
+!s101 -O0
+vsync
+R1
+IU_PNl_JdSdB^D]CTHJm>13
+VDY37AGl6YeZi>Nz]67AGE0
+Z6 !s105 Synchronizers_sv_unit
+S1
+R2
+Z7 w1517892894
+Z8 8/home/cwu72/Desktop/Lab-4/eightLogic/Synchronizers.sv
+Z9 F/home/cwu72/Desktop/Lab-4/eightLogic/Synchronizers.sv
+L0 4
+R3
+r1
+31
+Z10 !s108 1517896287.937814
+Z11 !s107 /home/cwu72/Desktop/Lab-4/eightLogic/Synchronizers.sv|
+Z12 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/cwu72/Desktop/Lab-4/eightLogic|/home/cwu72/Desktop/Lab-4/eightLogic/Synchronizers.sv|
+R4
+R5
+!i10b 1
+!s100 C`0@eYNSZSC7T5o]kIaam1
+!s85 0
+!s101 -O0
+vsync_r0
+R1
+ITC<TaL8K8mC76OeE6AEO70
+VMZaa5F6HXTWE1Gh5J:zVS3
+R6
+S1
+R2
+R7
+R8
+R9
+L0 18
+R3
+r1
+31
+R10
+R11
+R12
+R4
+R5
+!i10b 1
+!s100 497f^?TF1f?241=ZTS26S0
+!s85 0
+!s101 -O0
+vsync_r1
+R1
+I:=bR2dEUSij2K<N5bM4V]3
+VCZMQ_3:a@hlC9oHD;iQnm0
+R6
+S1
+R2
+R7
+R8
+R9
+L0 39
+R3
+r1
+31
+R10
+R11
+R12
+R4
+R5
+!i10b 1
+!s100 j]Jh_dFn`RU`W_bLKczNK0
+!s85 0
+!s101 -O0
+vtestbench
+R1
+!i10b 1
+!s100 jN>[bN=<4Ubem7^;<cNBT0
+I60l^^8[dG@CQ9iQLcH`zZ3
+VhGfW:390DM[oDMzegDH9`2
+!s105 testbench_8_sv_unit
+S1
+R2
+w1517894155
+8/home/cwu72/Desktop/Lab-4/eightLogic/testbench_8.sv
+F/home/cwu72/Desktop/Lab-4/eightLogic/testbench_8.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1517896293.282468
+!s107 /home/cwu72/Desktop/Lab-4/eightLogic/testbench_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/cwu72/Desktop/Lab-4/eightLogic|/home/cwu72/Desktop/Lab-4/eightLogic/testbench_8.sv|
+!s101 -O0
+R4
+R5

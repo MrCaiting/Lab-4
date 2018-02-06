@@ -1,3 +1,4 @@
+//Code for the control unit
 //Two-always example for state machine
 
 module control (input  logic Clk, Reset, LoadA, LoadB, Execute,
