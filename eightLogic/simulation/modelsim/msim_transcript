@@ -1,17 +1,21 @@
-# ERROR: No extended dataflow license exists
-# do eightLogic_run_msim_rtl_verilog.do 
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do eightLogic_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
 # vlib rtl_work
 # vmap work rtl_work
-# Copying /software/altera/13.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
-# ** Warning: Copied /software/altera/13.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vlog -sv -work work +incdir+/home/cwu72/Desktop/Lab-4/eightLogic {/home/cwu72/Desktop/Lab-4/eightLogic/Synchronizers.sv}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# vlog -sv -work work +incdir+C:/ece385/Lab-4/eightLogic {C:/ece385/Lab-4/eightLogic/Synchronizers.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 01:22:19 on Feb 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/Lab-4/eightLogic" C:/ece385/Lab-4/eightLogic/Synchronizers.sv 
 # -- Compiling module sync
 # -- Compiling module sync_r0
 # -- Compiling module sync_r1
@@ -20,58 +24,93 @@
 # 	sync
 # 	sync_r0
 # 	sync_r1
-# vlog -sv -work work +incdir+/home/cwu72/Desktop/Lab-4/eightLogic {/home/cwu72/Desktop/Lab-4/eightLogic/Router.sv}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 01:22:19 on Feb 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/ece385/Lab-4/eightLogic {C:/ece385/Lab-4/eightLogic/Router.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 01:22:19 on Feb 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/Lab-4/eightLogic" C:/ece385/Lab-4/eightLogic/Router.sv 
 # -- Compiling module router
 # 
 # Top level modules:
 # 	router
-# vlog -sv -work work +incdir+/home/cwu72/Desktop/Lab-4/eightLogic {/home/cwu72/Desktop/Lab-4/eightLogic/Reg_8.sv}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 01:22:19 on Feb 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/ece385/Lab-4/eightLogic {C:/ece385/Lab-4/eightLogic/Reg_8.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 01:22:19 on Feb 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/Lab-4/eightLogic" C:/ece385/Lab-4/eightLogic/Reg_8.sv 
 # -- Compiling module reg_8
 # 
 # Top level modules:
 # 	reg_8
-# vlog -sv -work work +incdir+/home/cwu72/Desktop/Lab-4/eightLogic {/home/cwu72/Desktop/Lab-4/eightLogic/HexDriver.sv}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 01:22:19 on Feb 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/ece385/Lab-4/eightLogic {C:/ece385/Lab-4/eightLogic/HexDriver.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 01:22:19 on Feb 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/Lab-4/eightLogic" C:/ece385/Lab-4/eightLogic/HexDriver.sv 
 # -- Compiling module HexDriver
 # 
 # Top level modules:
 # 	HexDriver
-# vlog -sv -work work +incdir+/home/cwu72/Desktop/Lab-4/eightLogic {/home/cwu72/Desktop/Lab-4/eightLogic/Control.sv}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 01:22:19 on Feb 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/ece385/Lab-4/eightLogic {C:/ece385/Lab-4/eightLogic/Control.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 01:22:19 on Feb 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/Lab-4/eightLogic" C:/ece385/Lab-4/eightLogic/Control.sv 
 # -- Compiling module control
 # 
 # Top level modules:
 # 	control
-# vlog -sv -work work +incdir+/home/cwu72/Desktop/Lab-4/eightLogic {/home/cwu72/Desktop/Lab-4/eightLogic/compute.sv}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 01:22:19 on Feb 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/ece385/Lab-4/eightLogic {C:/ece385/Lab-4/eightLogic/compute.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 01:22:19 on Feb 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/Lab-4/eightLogic" C:/ece385/Lab-4/eightLogic/compute.sv 
 # -- Compiling module compute
 # 
 # Top level modules:
 # 	compute
-# vlog -sv -work work +incdir+/home/cwu72/Desktop/Lab-4/eightLogic {/home/cwu72/Desktop/Lab-4/eightLogic/Register_unit.sv}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 01:22:20 on Feb 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/ece385/Lab-4/eightLogic {C:/ece385/Lab-4/eightLogic/Register_unit.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 01:22:20 on Feb 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/Lab-4/eightLogic" C:/ece385/Lab-4/eightLogic/Register_unit.sv 
 # -- Compiling module register_unit
 # 
 # Top level modules:
 # 	register_unit
-# vlog -sv -work work +incdir+/home/cwu72/Desktop/Lab-4/eightLogic {/home/cwu72/Desktop/Lab-4/eightLogic/eightLogic.sv}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 01:22:20 on Feb 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/ece385/Lab-4/eightLogic {C:/ece385/Lab-4/eightLogic/eightLogic.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 01:22:20 on Feb 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/Lab-4/eightLogic" C:/ece385/Lab-4/eightLogic/eightLogic.sv 
 # -- Compiling module eightLogic
 # 
 # Top level modules:
 # 	eightLogic
+# End time: 01:22:20 on Feb 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # 
-# vlog -sv -work work +incdir+/home/cwu72/Desktop/Lab-4/eightLogic {/home/cwu72/Desktop/Lab-4/eightLogic/testbench_8.sv}
-# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# vlog -sv -work work +incdir+C:/ece385/Lab-4/eightLogic {C:/ece385/Lab-4/eightLogic/testbench_8.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 01:22:20 on Feb 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/ece385/Lab-4/eightLogic" C:/ece385/Lab-4/eightLogic/testbench_8.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
+# End time: 01:22:20 on Feb 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
-# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps testbench 
+# vsim -gui "+altera" -l msim_transcript -do "eightLogic_run_msim_rtl_verilog.do" 
+# Start time: 01:22:20 on Feb 06,2018
 # Loading sv_std.std
 # Loading work.testbench
 # Loading work.eightLogic
@@ -89,10 +128,16 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 1000 ns
-# ** Warning: (vsim-8315) /home/cwu72/Desktop/Lab-4/eightLogic/Control.sv(27): No condition is true in the unique/priority if/case statement.
-# ** Warning: (vsim-8315) /home/cwu72/Desktop/Lab-4/eightLogic/Router.sv(17): No condition is true in the unique/priority if/case statement.
-# ** Warning: (vsim-8315) /home/cwu72/Desktop/Lab-4/eightLogic/Router.sv(7): No condition is true in the unique/priority if/case statement.
-# ** Warning: (vsim-8315) /home/cwu72/Desktop/Lab-4/eightLogic/compute.sv(8): No condition is true in the unique/priority if/case statement.
-# ** Warning: (vsim-8315) /home/cwu72/Desktop/Lab-4/eightLogic/Control.sv(27): No condition is true in the unique/priority if/case statement.
+# ** Warning: (vsim-8315) C:/ece385/Lab-4/eightLogic/Control.sv(27): No condition is true in the unique/priority if/case statement.
+# 
+# ** Warning: (vsim-8315) C:/ece385/Lab-4/eightLogic/Router.sv(17): No condition is true in the unique/priority if/case statement.
+# 
+# ** Warning: (vsim-8315) C:/ece385/Lab-4/eightLogic/Router.sv(7): No condition is true in the unique/priority if/case statement.
+# 
+# ** Warning: (vsim-8315) C:/ece385/Lab-4/eightLogic/compute.sv(8): No condition is true in the unique/priority if/case statement.
+# 
+# ** Warning: (vsim-8315) C:/ece385/Lab-4/eightLogic/Control.sv(27): No condition is true in the unique/priority if/case statement.
+# 
 # Success!
-# FATAL ERROR: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 01:22:47 on Feb 06,2018, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 5

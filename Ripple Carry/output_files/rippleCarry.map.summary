@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Feb 06 01:40:05 2018
+Quartus II 64-Bit Version : 15.0.2 Build 153 07/15/2015 SJ Full Version
+Revision Name : rippleCarry
+Top-level Entity Name : lab4_adders_toplevel
+Family : Cyclone IV E
+Total logic elements : 130
+    Total combinational functions : 114
+    Dedicated logic registers : 105
+Total registers : 105
+Total pins : 93
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
