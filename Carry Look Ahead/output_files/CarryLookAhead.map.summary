@@ -1,5 +1,5 @@
-Analysis & Synthesis Status : Successful - Tue Feb  6 22:14:42 2018
-Quartus II 32-bit Version : 13.1.4 Build 182 03/12/2014 SJ Full Version
+Analysis & Synthesis Status : Successful - Wed Feb 07 02:39:25 2018
+Quartus II 64-Bit Version : 15.0.2 Build 153 07/15/2015 SJ Full Version
 Revision Name : CarryLookAhead
 Top-level Entity Name : lab4_adders_toplevel
 Family : Cyclone IV E
