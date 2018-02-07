@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Feb  6 22:14:42 2018
+Quartus II 32-bit Version : 13.1.4 Build 182 03/12/2014 SJ Full Version
+Revision Name : CarryLookAhead
+Top-level Entity Name : lab4_adders_toplevel
+Family : Cyclone IV E
+Total logic elements : 126
+    Total combinational functions : 110
+    Dedicated logic registers : 105
+Total registers : 105
+Total pins : 93
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

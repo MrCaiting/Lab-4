@@ -1,6 +1,6 @@
 Flow report for rippleCarry
-Tue Feb 06 01:40:43 2018
-Quartus II 64-Bit Version 15.0.2 Build 153 07/15/2015 SJ Full Version
+Tue Feb  6 21:09:24 2018
+Quartus II 32-bit Version 13.1.4 Build 182 03/12/2014 SJ Full Version
 
 
 ---------------------
@@ -21,42 +21,41 @@ Quartus II 64-Bit Version 15.0.2 Build 153 07/15/2015 SJ Full Version
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Copyright (C) 1991-2014 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
 to the terms and conditions of the Altera Program License 
-Subscription Agreement, the Altera Quartus II License Agreement,
-the Altera MegaCore Function License Agreement, or other 
-applicable license agreement, including, without limitation, 
-that your use is for the sole purpose of programming logic 
-devices manufactured by Altera and sold by Altera or its 
-authorized distributors.  Please refer to the applicable 
-agreement for further details.
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
 
 
 
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Feb 06 01:40:43 2018       ;
-; Quartus II 64-Bit Version          ; 15.0.2 Build 153 07/15/2015 SJ Full Version ;
+; Flow Status                        ; Successful - Tue Feb  6 21:09:24 2018       ;
+; Quartus II 32-bit Version          ; 13.1.4 Build 182 03/12/2014 SJ Full Version ;
 ; Revision Name                      ; rippleCarry                                 ;
 ; Top-level Entity Name              ; lab4_adders_toplevel                        ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 117 / 114,480 ( < 1 % )                     ;
-;     Total combinational functions  ; 114 / 114,480 ( < 1 % )                     ;
-;     Dedicated logic registers      ; 105 / 114,480 ( < 1 % )                     ;
+; Total logic elements               ; 130                                         ;
+;     Total combinational functions  ; 114                                         ;
+;     Dedicated logic registers      ; 105                                         ;
 ; Total registers                    ; 105                                         ;
-; Total pins                         ; 93 / 529 ( 18 % )                           ;
+; Total pins                         ; 93                                          ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                       ;
-; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                             ;
-; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -65,68 +64,64 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/06/2018 01:39:55 ;
+; Start date & time ; 02/06/2018 21:09:21 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; rippleCarry         ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                    ;
-+-------------------------------------+---------------------------------------+---------------+----------------------+----------------+
-; Assignment Name                     ; Value                                 ; Default Value ; Entity Name          ; Section Id     ;
-+-------------------------------------+---------------------------------------+---------------+----------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 71094331157822.151790279504808        ; --            ; --                   ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                     ; --            ; --                   ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)       ; <None>        ; --                   ; --             ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --                   ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --                   ; --             ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                  ; --            ; --                   ; --             ;
-; PARTITION_COLOR                     ; 16764057                              ; --            ; lab4_adders_toplevel ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; lab4_adders_toplevel ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; lab4_adders_toplevel ; Top            ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --                   ; --             ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --                   ; --             ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --                   ; --             ;
-; TOP_LEVEL_ENTITY                    ; lab4_adders_toplevel                  ; rippleCarry   ; --                   ; --             ;
-+-------------------------------------+---------------------------------------+---------------+----------------------+----------------+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                     ;
++--------------------------------------+---------------------------------------+---------------+----------------------+----------------+
+; Assignment Name                      ; Value                                 ; Default Value ; Entity Name          ; Section Id     ;
++--------------------------------------+---------------------------------------+---------------+----------------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 233845176327142.151797296126693       ; --            ; --                   ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --                   ; testbench      ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench                             ; --            ; --                   ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                     ; --            ; --                   ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (SystemVerilog)       ; <None>        ; --                   ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                       ; --            ; --                   ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; testbench.sv                          ; --            ; --                   ; testbench      ;
+; EDA_TEST_BENCH_MODULE_NAME           ; testbench                             ; --            ; --                   ; testbench      ;
+; EDA_TEST_BENCH_NAME                  ; testbench                             ; --            ; --                   ; eda_simulation ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1000 ns                               ; --            ; --                   ; testbench      ;
+; EDA_TIME_SCALE                       ; 1 ns                                  ; --            ; --                   ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                    ; --            ; --                   ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                     ; --            ; --                   ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                  ; --            ; --                   ; --             ;
+; PARTITION_COLOR                      ; 16764057                              ; --            ; lab4_adders_toplevel ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                 ; --            ; lab4_adders_toplevel ; Top            ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                ; --            ; lab4_adders_toplevel ; Top            ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                   ; --            ; --                   ; --             ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --                   ; --             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                          ; --            ; --                   ; --             ;
+; TOP_LEVEL_ENTITY                     ; lab4_adders_toplevel                  ; rippleCarry   ; --                   ; --             ;
++--------------------------------------+---------------------------------------+---------------+----------------------+----------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                             ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:10     ; 1.0                     ; 694 MB              ; 00:00:22                           ;
-; Fitter                    ; 00:00:20     ; 1.7                     ; 1597 MB             ; 00:00:21                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 614 MB              ; 00:00:04                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 789 MB              ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 583 MB              ; 00:00:01                           ;
-; Total                     ; 00:00:39     ; --                      ; --                  ; 00:00:50                           ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:04     ; 1.0                     ; 444 MB              ; 00:00:03                           ;
+; Total                ; 00:00:04     ; --                      ; --                  ; 00:00:03                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                        ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; ECEB-3022-13     ; Windows 7 ; 6.1        ; x86_64         ;
-; Fitter                    ; ECEB-3022-13     ; Windows 7 ; 6.1        ; x86_64         ;
-; Assembler                 ; ECEB-3022-13     ; Windows 7 ; 6.1        ; x86_64         ;
-; TimeQuest Timing Analyzer ; ECEB-3022-13     ; Windows 7 ; 6.1        ; x86_64         ;
-; EDA Netlist Writer        ; ECEB-3022-13     ; Windows 7 ; 6.1        ; x86_64         ;
-+---------------------------+------------------+-----------+------------+----------------+
++-------------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                                 ;
++----------------------+---------------------------+--------------+--------------+----------------+
+; Module Name          ; Machine Hostname          ; OS Name      ; OS Version   ; Processor type ;
++----------------------+---------------------------+--------------+--------------+----------------+
+; Analysis & Synthesis ; linux-a2.ews.illinois.edu ; CentOS Linux ; CentOS Linux ; x86_64         ;
++----------------------+---------------------------+--------------+--------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off rippleCarry -c rippleCarry
-quartus_fit --read_settings_files=off --write_settings_files=off rippleCarry -c rippleCarry
-quartus_asm --read_settings_files=off --write_settings_files=off rippleCarry -c rippleCarry
-quartus_sta rippleCarry -c rippleCarry
-quartus_eda --read_settings_files=off --write_settings_files=off rippleCarry -c rippleCarry
 
 
 
