@@ -1,5 +1,5 @@
 EDA Netlist Writer report for CarryLookAhead
-Wed Feb 07 02:39:54 2018
+Wed Feb 14 17:52:59 2018
 Quartus II 64-Bit Version 15.0.2 Build 153 07/15/2015 SJ Full Version
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Feb 07 02:39:54 2018 ;
+; EDA Netlist Writer Status ; Successful - Wed Feb 14 17:52:59 2018 ;
 ; Revision Name             ; CarryLookAhead                        ;
 ; Top-level Entity Name     ; lab4_adders_toplevel                  ;
 ; Family                    ; Cyclone IV E                          ;
@@ -67,20 +67,20 @@ agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------------+
 
 
-+----------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                   ;
-+----------------------------------------------------------------------------------------------+
-; Generated Files                                                                              ;
-+----------------------------------------------------------------------------------------------+
-; C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead_7_1200mv_85c_slow.svo    ;
-; C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead_7_1200mv_0c_slow.svo     ;
-; C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead_min_1200mv_0c_fast.svo   ;
-; C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead.svo                      ;
-; C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead_7_1200mv_85c_v_slow.sdo  ;
-; C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead_7_1200mv_0c_v_slow.sdo   ;
-; C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead_min_1200mv_0c_v_fast.sdo ;
-; C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead_v.sdo                    ;
-+----------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                            ;
++---------------------------------------------------------------------------------------+
+; Generated Files                                                                       ;
++---------------------------------------------------------------------------------------+
+; E:/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead_7_1200mv_85c_slow.svo    ;
+; E:/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead_7_1200mv_0c_slow.svo     ;
+; E:/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead_min_1200mv_0c_fast.svo   ;
+; E:/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead.svo                      ;
+; E:/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead_7_1200mv_85c_v_slow.sdo  ;
+; E:/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead_7_1200mv_0c_v_slow.sdo   ;
+; E:/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead_min_1200mv_0c_v_fast.sdo ;
+; E:/Lab-4/Carry Look Ahead/simulation/modelsim/CarryLookAhead_v.sdo                    ;
++---------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -89,24 +89,24 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 15.0.2 Build 153 07/15/2015 SJ Full Version
-    Info: Processing started: Wed Feb 07 02:39:53 2018
+    Info: Processing started: Wed Feb 14 17:52:56 2018
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off CarryLookAhead -c CarryLookAhead
 Warning (202000): An incorrect timescale is selected for the Verilog Output (.VO) file of this PLL design. It's required that the timescale should be 1 ps when simulating a PLL design in a third party EDA tool.
-Info (204019): Generated file CarryLookAhead_7_1200mv_85c_slow.svo in folder "C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file CarryLookAhead_7_1200mv_85c_slow.svo in folder "E:/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
 Warning (202000): An incorrect timescale is selected for the Verilog Output (.VO) file of this PLL design. It's required that the timescale should be 1 ps when simulating a PLL design in a third party EDA tool.
-Info (204019): Generated file CarryLookAhead_7_1200mv_0c_slow.svo in folder "C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file CarryLookAhead_7_1200mv_0c_slow.svo in folder "E:/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
 Warning (202000): An incorrect timescale is selected for the Verilog Output (.VO) file of this PLL design. It's required that the timescale should be 1 ps when simulating a PLL design in a third party EDA tool.
-Info (204019): Generated file CarryLookAhead_min_1200mv_0c_fast.svo in folder "C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file CarryLookAhead_min_1200mv_0c_fast.svo in folder "E:/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
 Warning (202000): An incorrect timescale is selected for the Verilog Output (.VO) file of this PLL design. It's required that the timescale should be 1 ps when simulating a PLL design in a third party EDA tool.
-Info (204019): Generated file CarryLookAhead.svo in folder "C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file CarryLookAhead_7_1200mv_85c_v_slow.sdo in folder "C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file CarryLookAhead_7_1200mv_0c_v_slow.sdo in folder "C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file CarryLookAhead_min_1200mv_0c_v_fast.sdo in folder "C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file CarryLookAhead_v.sdo in folder "C:/ece385/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file CarryLookAhead.svo in folder "E:/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file CarryLookAhead_7_1200mv_85c_v_slow.sdo in folder "E:/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file CarryLookAhead_7_1200mv_0c_v_slow.sdo in folder "E:/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file CarryLookAhead_min_1200mv_0c_v_fast.sdo in folder "E:/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file CarryLookAhead_v.sdo in folder "E:/Lab-4/Carry Look Ahead/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 587 megabytes
-    Info: Processing ended: Wed Feb 07 02:39:54 2018
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 585 megabytes
+    Info: Processing ended: Wed Feb 14 17:52:59 2018
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:01
 
 

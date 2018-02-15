@@ -1,13 +1,13 @@
-Fitter Status : Successful - Wed Feb 07 02:24:17 2018
+Fitter Status : Successful - Wed Feb 14 18:01:13 2018
 Quartus II 64-Bit Version : 15.0.2 Build 153 07/15/2015 SJ Full Version
 Revision Name : SelectAdder
 Top-level Entity Name : lab4_adders_toplevel
 Family : Cyclone IV E
 Device : EP4CE115F29C7
 Timing Models : Final
-Total logic elements : 132 / 114,480 ( < 1 % )
+Total logic elements : 125 / 114,480 ( < 1 % )
     Total combinational functions : 123 / 114,480 ( < 1 % )
-    Dedicated logic registers : 105 / 114,480 ( < 1 % )
+    Dedicated logic registers : 32 / 114,480 ( < 1 % )
 Total registers : 105
 Total pins : 93 / 529 ( 18 % )
 Total virtual pins : 0
